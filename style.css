@@ -1,0 +1,54 @@
+body{
+    background: black;
+    font-family: 'Chilanka', cursive;
+}
+
+h2{
+    margin: 5px;
+}
+
+img{
+    margin: 5px;
+}
+
+input{
+    border-style: none;
+    border-bottom: 2px gray solid;
+}
+
+.head{
+    background: white;
+    margin: 500px;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+}
+
+.post-middle{
+    float: right;
+    margin: 10px;
+}
+
+.ending{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div > p{
+    margin: 10px;
+}
+
+.ending > input{
+    margin: 15px;
+}
+
+
